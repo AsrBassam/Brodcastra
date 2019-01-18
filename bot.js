@@ -8,7 +8,7 @@ client.on("ready", async() => {
     client.user.setGame("Red-Army");
 console.log(`Back Online In ${client.guilds.size} Servers!`);  
     setTimeout(() => {
-        client.user.setActivity(`${prefix}help | V 1.1`, {type: "WATCHING"});
+        client.user.setActivity(`${prefix}help | Red Army`, {type: "WATCHING"});
     }, 3000);
 });
 
